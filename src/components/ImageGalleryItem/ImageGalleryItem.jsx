@@ -28,6 +28,7 @@ export class ImageGalleryItem extends Component {
           <Modal onClose={this.toggleModal}>
             <img alt={alt} src={largeImage} />
           </Modal>
+          
         )}
       </>
     );

@@ -80,7 +80,7 @@ export class ImageGallery extends Component {
             ))}
           </div>
           <Button onClick={this.loadMoreHandler}>Load more</Button>
-          <div><h2>Designed by  Emmanuel S Giraldo </h2></div>
+          
         </>
       );
     }

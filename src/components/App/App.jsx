@@ -18,6 +18,7 @@ export class App extends Component {
       <div className={styles["app"]}>
         <Searchbar onSubmit={this.searchFormSubmitHandler} />
         <ImageGallery query={this.state.query} />
+        <h2>Designed by Emmanuel S Giraldo</h2>
       </div>
     );
   }

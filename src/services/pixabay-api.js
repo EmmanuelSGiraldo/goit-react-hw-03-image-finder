@@ -10,7 +10,7 @@ export const fetchGalleryWithQuery = async (query, page) => {
         key: API_KEY,
         image_type: 'photo',
         orientation: 'horizontal',
-        per_page: 5,
+        per_page: 6,
     });
 
     const response = await axios.get(`${BASE_URL}?${searchParams}`);
